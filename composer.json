@@ -1,0 +1,25 @@
+{
+  "name": "conciliara/broker",
+  "description": "Contract Testing Broker",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Conciliara\\Broker\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Alef Castelo",
+      "email": "alefaraujocastelo@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/yaml": "^7.1"
+  },
+  "require-dev": {
+    "behat/behat": "^3.14"
+  }
+}
